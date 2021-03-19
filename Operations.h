@@ -10,3 +10,5 @@ int exposant(int nb, int exp);
 
 float division(int a, int b);
 
+int factoriel(int nb);
+
