@@ -66,3 +66,24 @@ float division(int a, int b)
 
 	return resultat;
 }
+float nbrPremier(int a)
+{
+	 int n,i,p=0 ;
+
+    cout << " entrez un nombre " << endl ;
+
+    cin >> n;
+
+    for (i=2 ; i<n; i++)
+
+    if (n%i==0)p=1;
+	
+    if(p==0)
+	
+    cout << " le nombre est premier "<< endl ;
+	
+    else( cout << " le nombre n'est pas premier ") << endl ;
+
+    return 0;
+	
+}
