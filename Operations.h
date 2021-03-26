@@ -12,3 +12,5 @@ float division(int a, int b);
 
 int factoriel(int nb);
 
+float nbrPremier(int a);
+
