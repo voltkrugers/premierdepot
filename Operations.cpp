@@ -66,3 +66,12 @@ float division(int a, int b)
 
 	return resultat;
 }
+
+float distance(int x1, int y1, int x2, int y2)
+{
+	float resultat;
+
+	resultat = sqrt[[(x2-x1)*(x2-x1)]+[(y2-y1)*(y2-y1)]];
+
+	return resultat
+}
